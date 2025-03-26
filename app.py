@@ -61,7 +61,7 @@ st.caption("By analyzing historical data, it helps businesses optimize their sup
 
 # Sidebar
 with st.sidebar:
-    img_path = os.path.abspath("./Delivery_time_Prediction_1/assets/supply_chain_optimisation.jpg")  # Converts to absolute path
+    img_path = os.path.abspath("./assets/supply_chain_optimisation.jpg")  # Converts to absolute path
     img = Image.open(img_path)
 
     st.header("Input Parameters")
